@@ -24,21 +24,15 @@ div.appendChild(input)
 div.appendChild(br)
 div.appendChild(btn)
 //// add li item for todo list
+var ul =  document.createElement('ul') // ul
 
-var ul =  document.createElement('ul') // li element to display new todo
-var li =  document.createElement('li') 
-var text = document.createTextNode('First Item To Do'); 
-li.appendChild(text) // put text in li as child
-var li2 =  document.createElement('li') // li element to display new todo
-var text2 = document.createTextNode('Second Item To Do'); 
-li2.appendChild(text2) 
-var li3 =  document.createElement('li') // li element to display new todo
-var text3 = document.createTextNode('Third Item To Do'); 
-li3.appendChild(text3) // put text in li as child
-
-ul.appendChild(li)  // attaching list to ul
-ul.appendChild(li2)
-ul.appendChild(li3)
+//dynamic li for each item
+var listItems = ['First Item To Do','Second Item To Do','Third Item To Do'];
+listItems.forEach(function(item){
+    var li = document.createElement('li');
+    ul.appendChild(li);
+    li.innerHTML += item;
+});
 div.appendChild(ul)// attaching ul to div
 
 document.getElementById('body').appendChild(div); ///attaching to body
