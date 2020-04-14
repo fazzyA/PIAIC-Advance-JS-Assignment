@@ -1,3 +1,3 @@
 # To do List
-### with delete and complet options
+### with delete and complete options
 ![](todo.gif)
