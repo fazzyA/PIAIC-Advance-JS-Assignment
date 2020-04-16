@@ -12,10 +12,12 @@ body{
 h1{
     color:#88919B;
 }
-input{
-    margin:3px;
-    padding: 5px;
-}
+input, select{
+    margin:8px;
+    padding: 10px;
+}select{
+width: 20%;
+height: auto;}
 button.tab{
     background-color: white;
     font-size: 20px;
@@ -28,6 +30,10 @@ button.tab{
 
 }button.tab:hover{
     background-color: rgb(226, 226, 226);
+
+}button.tab:active{
+    background-color: rgb(226, 95, 43);
+    color:white
 
 }
 .signupbtn{

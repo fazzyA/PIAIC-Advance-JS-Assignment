@@ -4,6 +4,7 @@ const field = "Web Development";
 const yearsInField = 8;
 const date = new Date();
 const coverLetter= `Hi my name is ${name} and I am a ${avatar} for ${yearsInField} years.
-Today ${date} I want to tell you about myself.`;
+Today ${date}.
+I want to tell you about myself.`;
 
 console.log(coverLetter);

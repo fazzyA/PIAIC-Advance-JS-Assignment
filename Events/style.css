@@ -1,6 +1,10 @@
 body{
     font-size: 18px;
 }
+img{
+    float: right;
+    margin: 0px 0px 0px 50px;
+}
 input {
     padding: 5px;
     border-radius: 5px;

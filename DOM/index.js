@@ -4,7 +4,7 @@ div.className = "div1";
 /// first heading
 var h1 = document.createElement("h1");
 h1.className='heading';
-var txt = document.createTextNode("To-Do List!"); //heading text
+var txt = document.createTextNode("To-Do List UI!"); //heading text
 
 h1.appendChild(txt)
 div.appendChild(h1)
@@ -35,7 +35,7 @@ listItems.forEach(function(item){
 });
 div.appendChild(ul)// attaching ul to div
 
-document.getElementById('body').appendChild(div); ///attaching to body
+document.getElementById('divtwo').appendChild(div); ///attaching to body
 
 ///Add delete btn for eact LI item ///
 

@@ -2,10 +2,10 @@
 //  example : 1
 
 
-var userName = "Ameen ALam";
+var userName = "Faiza one";
 
 function modifyUserName() {
-        userName = "Daniyal Nagori";
+        userName = "Faiza two";
     };
 
 function showUserName() {
